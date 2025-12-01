@@ -60,13 +60,54 @@ stock-market-prediction/
 │
 └── README.md # Project documentation
 
-
----
-
-## ⚙️ Installation & Setup
-
 ### **1️⃣ Clone the repository**
 ```bash
 git clone https://github.com/yourname/stock-prediction-app.git
 cd stock-prediction-app
+\## ⚙️ Installation & Setup
 
+### 2️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+3️⃣ Train the model (optional)
+bash
+Copy code
+python model/train.py
+4️⃣ Run the web app
+bash
+Copy code
+python app.py
+5️⃣ Open in your browser
+cpp
+Copy code
+http://127.0.0.1:5000
+
+
+
+
+🧠 How the Prediction Works
+User enters a stock ticker
+Examples: AAPL, TSLA, RELIANCE.NS.
+
+App fetches historical stock prices
+Uses market data APIs such as Yahoo Finance.
+
+Data preprocessing
+
+Cleaning
+
+Normalizing
+
+Scaling with stored scaler
+
+ML model prediction
+The trained model predicts future stock prices for the selected number of days.
+
+Interactive graph
+The web interface displays:
+
+Historical prices
+
+Predicted future prices
+
+Easy-to-read line charts
