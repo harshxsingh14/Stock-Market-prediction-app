@@ -75,13 +75,13 @@ export default function PredictionPage() {
 
         <small className="text-sm font-medium mb-5">
           Enter one stock symbol at a time (e.g. AAPL){" "}
-          <i className="text-green-300">The max you can add is five.</i>
+          <i className="text-green-300">The maximum you can add is five.</i>
         </small>
 
         <>
           {symbols.length >= 5 && (
             <small className="text-sm font-medium mb-5 text-green-600">
-              Max symbols reached
+              Maximum symbols reached
             </small>
           )}
         </>
