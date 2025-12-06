@@ -110,4 +110,4 @@ Historical prices
 
 Predicted future prices
 
-Easy-to-read line charts
+Easy
