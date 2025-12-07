@@ -16,7 +16,7 @@ This project combines a Python-based ML model with a clean and interactive web i
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### **Backend**
 - Python  
