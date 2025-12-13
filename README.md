@@ -5,7 +5,7 @@ This project combines a Python-based ML model with a clean and interactive web i
 
 ---
 
-## 🚀 Features
+## Features
 
 - Predict future stock prices using ML models (LSTM, Linear Regression, etc.)
 - Interactive charts to visualize historical & predicted trends
